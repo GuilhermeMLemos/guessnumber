@@ -1,0 +1,57 @@
+.display {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tipText {
+  color: var(--color-brand-lighter);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.25rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.tipTextSuccess {
+  color: var(--color-success);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.25rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  border-radius: 4px;
+  color: var(--color-white);
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.875rem;
+}
+
+.newGameButton {
+  background: linear-gradient(180deg, #434854, #9e9e9e);
+  display: none;
+  height: 42px;
+  margin-top: 1.9375rem;
+  width: 130px;
+}
+
+.newGameButtonVisible {
+  background: linear-gradient(180deg, #434854, #9e9e9e);
+  display: initial;
+  height: 42px;
+  margin-top: 1.9375rem;
+  width: 130px;
+}

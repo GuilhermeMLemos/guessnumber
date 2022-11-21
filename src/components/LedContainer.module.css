@@ -1,0 +1,50 @@
+.ledContainer {
+  display: flex;
+  flex-direction: column;
+  height: 8.4375rem;
+  margin: 0 0.265625rem;
+  width: 4.625rem;
+}
+
+.ledTop {
+  border: 0.6875rem solid var(--color-gray);
+  border-bottom: none;
+  height: 45%;
+}
+
+.ledBottom {
+  border: 0.6875rem solid var(--color-gray);
+  height: 55%;
+}
+
+.topCommon {
+  border-top-color: var(--color-black);
+}
+
+.topCommonSuccess {
+  border-top-color: var(--color-success);
+}
+
+.rightCommon {
+  border-right-color: var(--color-black);
+}
+
+.rightCommonSuccess {
+  border-right-color: var(--color-success);
+}
+
+.leftCommon {
+  border-left-color: var(--color-black);
+}
+
+.leftCommonSuccess {
+  border-left-color: var(--color-success);
+}
+
+.bottomCommon {
+  border-bottom-color: var(--color-black);
+}
+
+.bottomCommonSuccess {
+  border-bottom-color: var(--color-success);
+}
